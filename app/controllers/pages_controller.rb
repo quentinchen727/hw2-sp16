@@ -17,4 +17,8 @@ class PagesController < ApplicationController
     @birth_year = new_person.birth_year
     @nickname = new_person.nickname
   end
+
+  def me
+    @self_introduction = "I am Qin Chen, an enthusiast for life and knowledge"
+  end
 end
